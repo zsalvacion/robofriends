@@ -1,6 +1,7 @@
 {
   "name": "robofriends",
   "version": "0.1.0",
+  "homepage": "http://zsalvacion.github.io/robofriends"
   "private": true,
   "dependencies": {
     "react": "^16.4.2",
@@ -13,5 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
